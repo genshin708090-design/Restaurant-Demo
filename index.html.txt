@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bella Vita — Fine Dining</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav id="nav">
+    <a href="#" class="nav-logo">Bella Vita</a>
+    <ul class="nav-links">
+      <li><a href="#about">Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reserve">Reserve</a></li>
+    </ul>
+    <a href="#reserve" class="nav-reserve">Book a Table</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2012 · Chicago, Illinois</p>
+      <h1 class="hero-title">Bella<br><em>Vita</em></h1>
+      <p class="hero-sub">Where Italian tradition meets modern elegance</p>
+
+      <div class="hero-cta">
+        <a href="#menu" class="btn-primary">Explore Menu</a>
+        <a href="#reserve" class="btn-ghost">Reserve a Table</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about reveal">
+    <div>
+      <h2 class="section-title">Crafted with <em>passion</em></h2>
+      <p class="text">
+        Bella Vita blends tradition and modern dining into one experience.
+        Every dish is made with care, passion, and a bit of Italian magic.
+      </p>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="menu reveal">
+    <h2 class="section-title">Signature <em>Menu</em></h2>
+
+    <div class="menu-grid">
+      <div class="card">Tagliatelle al Ragù</div>
+      <div class="card">Bistecca Fiorentina</div>
+      <div class="card">Tiramisù</div>
+    </div>
+  </section>
+
+  <!-- RESERVE -->
+  <section id="reserve" class="reserve reveal">
+    <h2 class="section-title">Reserve a <em>Table</em></h2>
+
+    <form class="form">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="date">
+      <button type="button" onclick="bookTable()">Confirm Reservation</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Bella Vita</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
